@@ -4,6 +4,42 @@ body {
   font-family: "Playfair Display";
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 0;
+}
+
+.navbar .left {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.navbar .right {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .right a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .right a:hover {
+  text-decoration: underline;
+}
+
+.navbar .right img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.project-grid {
+  display: grid;
+}
+
 .project {
   margin-top: 300px;
   width: 400px;
