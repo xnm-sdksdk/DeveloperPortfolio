@@ -4,6 +4,46 @@ body {
   font-family: "Playfair Display";
 }
 
+.project-grid {
+  display: grid;
+  grid-template-areas:
+    "retro retro robot"
+    "retro retro board"
+    "editor laptop board"
+    "working meeting"
+    "working meeting";
+  grid-gap: 2rem;
+  
+}
+
+#retro {
+  grid-area: retro;
+}
+
+#robot {
+  grid-area: robot;
+}
+
+#board {
+  grid-area: board;
+}
+
+#editor {
+  grid-area: editor;
+}
+
+#laptop {
+  grid-area: laptop;
+}
+
+#meeting {
+  grid-area: meeting;
+}
+
+#working {
+  grid-area: working;
+}
+
 .container {
   max-width: 90%;
   margin: 0 auto;
