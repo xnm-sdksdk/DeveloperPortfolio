@@ -22,8 +22,8 @@ The project structure is as follows:
 
 To view the website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/developer-portfolio.git`
-2. Navigate to the project directory: `cd developer-portfolio`
+1. Clone the repository: `git clone https://github.com/xnm-sdksdk/DeveloperPortfolio.git`
+2. Navigate to the project directory: `cd DeveloperPortfolio`
 3. Open the index.html file in your web browser.
 
 ## Usage
