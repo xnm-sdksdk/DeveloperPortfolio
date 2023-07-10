@@ -45,21 +45,21 @@ body {
 .project-grid {
   display: grid;
   grid-template-areas:
-    "eth eth alphabet"
-    "eth eth traveler"
-    "astro cube traveler"
-    "cup insta insta"
-    "cup insta insta"
-    "foam foam dimensional"
-    "foam foam dimensional";
+    "retro retro board"
+    "retro retro robot"
+    "editor laptop robot"
+    "meeting working working"
+    "meeting working working"
+    "nasa nasa glasses"
+    "nasa nasa glasses";
   grid-gap: 2rem;
   width: 100%;
   max-width: 90%;
   margin: 0 auto;
 }
 
-#eth {
-  grid-area: eth;
+#retro {
+  grid-area: retro;
 }
 
 #alphabet {
@@ -144,26 +144,26 @@ body {
   .project-grid {
     max-width: 100%;
     grid-template-areas:
-      "eth eth"
-      "alphabet traveler"
-      "astro cube"
-      "insta insta"
-      "cup foam"
-      "dimensional dimensional";
+      "retro retro"
+      "board robot"
+      "editor laptop"
+      "meeting meeting"
+      "working nasa"
+      "glassesl glasses";
   }
 }
 
 @media only screen and (max-width: 768px) {
   .project-grid {
     grid-template-areas:
-      "eth eth"
-      "alphabet alphabet"
-      "traveler traveler"
-      "astro cube"
-      "insta insta"
-      "cup cup"
-      "foam foam"
-      "dimensional dimensional";
+      "retro retro"
+      "board board"
+      "robot robot"
+      "editor laptop"
+      "meeting meeting"
+      "working working"
+      "nasa nasa"
+      "glasses glasses";
   }
 
   .project .overlay {
