@@ -45,3 +45,16 @@ Contributions are welcome! If you would like to contribute to this project, plea
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out.
+
+
+## Project Images
+
+<img src="./images/navbar.png">
+
+<img src="./images/grid1.png">
+
+<img src="./images/grid2.png">
+
+<img src="./images/grid_hover.png">
+
+<img src="./images/footer.png">
