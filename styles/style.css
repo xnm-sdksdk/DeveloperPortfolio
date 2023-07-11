@@ -57,6 +57,23 @@ body {
   height: 3rem;
 }
 
+.nav-menu {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-menu .bar {
+  background-color: #000;
+  width: 3rem;
+  height: 4px;
+  margin: 3px;
+  border-radius: 3rem;
+}
+
+.navbar .nav-menu {
+  display: none;
+}
+
 .project-grid {
   display: grid;
   grid-template-areas:
@@ -156,6 +173,10 @@ body {
     max-width: 100%;
   }
 
+  .navbar .left span {
+    font-size: 24px;
+  }
+
   .project-grid {
     max-width: 100%;
     grid-template-areas:
@@ -168,7 +189,49 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 940px) {
+  .navbar .left span {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar .left span {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    padding: 16px 24px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .navbar .left span {
+    font-size: 12px;
+  }
+
+  .project-grid {
+    margin: 0px;
+  }
+
+  .navbar .right {
+    display: none;
+  }
+
+  .navbar .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .project-grid {
     grid-template-areas:
       "retro retro"
