@@ -21,6 +21,21 @@ body {
   font-weight: bold;
 }
 
+.left span {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
+
 .navbar .right {
   width: 400px;
   display: flex;
