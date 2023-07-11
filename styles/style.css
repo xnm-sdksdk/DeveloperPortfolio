@@ -95,36 +95,36 @@ body {
   grid-area: retro;
 }
 
-#alphabet {
-  grid-area: alphabet;
+#board {
+  grid-area: board;
 }
 
-#traveler {
-  grid-area: traveler;
+#robot {
+  grid-area: robot;
 }
 
-#astro {
-  grid-area: astro;
+#editor {
+  grid-area: editor;
 }
 
-#cube {
-  grid-area: cube;
+#laptop {
+  grid-area: laptop;
 }
 
-#cup {
-  grid-area: cup;
+#meeting {
+  grid-area: meeting;
 }
 
-#insta {
-  grid-area: insta;
+#working {
+  grid-area: working;
 }
 
-#foam {
-  grid-area: foam;
+#nasa {
+  grid-area: nasa;
 }
 
-#dimensional {
-  grid-area: dimensional;
+#glasses {
+  grid-area: glasses;
 }
 
 .project {
@@ -187,7 +187,7 @@ body {
       "editor laptop"
       "meeting meeting"
       "working nasa"
-      "glassesl glasses";
+      "glasses glasses";
   }
 }
 
