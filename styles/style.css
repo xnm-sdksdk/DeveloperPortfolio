@@ -77,6 +77,10 @@ body {
   display: none;
 }
 
+.navbar .nav-menu:hover {
+  cursor: pointer;
+}
+
 .mobile-nav {
   width: 80px;
   background-color: white;
@@ -88,13 +92,18 @@ body {
   position: fixed;
   z-index: 2;
   top: 0;
-  right: 0;
+  right: -160px;
   padding: 16px;
+  transition: transform 0.3s;
 }
 
 .mobile-nav img {
   width: 24px;
   height: 24px;
+}
+
+.openDrawer {
+  transform: translateX(-160px);
 }
 
 .mobile-nav a {
