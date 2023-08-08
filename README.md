@@ -8,6 +8,7 @@ The project is built using HTML and CSS. The following technologies and resource
 
 - HTML5: Markup language used for structuring the website.
 - CSS3: Styling language used for visual enhancements.
+- JavaScript: Programming language for action in the website.
 - Google Fonts: External font library for using the "Open Sans" and "Playfair Display" fonts.
 - GitHub and LinkedIn Icons: Images used as icons for the corresponding social media links.
 
@@ -17,6 +18,7 @@ The project structure is as follows:
 
 - **index.html**: The main HTML file that defines the structure and content of the website.
 - **styles/style.css**: The CSS file that contains the styles for the website.
+- **index.js**: The JavaScript file that contains the action for the side bar.
 
 ## Getting Started
 
@@ -45,7 +47,6 @@ Contributions are welcome! If you would like to contribute to this project, plea
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out.
-
 
 ## Project Images
 
