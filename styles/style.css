@@ -63,7 +63,9 @@ body {
   width: 50px;
 }
 
-.nav-menu .bar {
+.nav-menu .bar1,
+.bar2,
+.bar3 {
   background-color: #000;
   width: 3rem;
   height: 4px;
@@ -73,6 +75,36 @@ body {
 
 .navbar .nav-menu {
   display: none;
+}
+
+.mobile-nav {
+  width: 80px;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  padding: 16px;
+}
+
+.mobile-nav img {
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: black;
+  margin: 16px 0;
+}
+
+.mobile-nav a:hover {
+  text-decoration: underline;
 }
 
 .project-grid {
@@ -268,16 +300,19 @@ body {
   }
 }
 
-.nav-menu .bar:nth-child(1) {
-  animation: flipBar1 1s infinite;
+.animateBar1 {
+  animation: flipBar1 1s;
+  animation-fill-mode: forwards;
 }
 
-.nav-menu .bar:nth-child(2) {
-  animation: fadeBar2 1s infinite;
+.animateBar2 {
+  animation: fadeBar2 1s;
+  animation-fill-mode: forwards;
 }
 
-.nav-menu .bar:nth-child(3) {
-  animation: flipBar3 1s infinite;
+.animateBar3 {
+  animation: flipBar3 1s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes flipBar1 {
